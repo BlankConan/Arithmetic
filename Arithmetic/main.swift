@@ -10,7 +10,8 @@ import Foundation
 
 
 
-print(TwoSumSolution().twoSum([3,2,4], 6))
+
+AddTwoNums.test()
 
 
 

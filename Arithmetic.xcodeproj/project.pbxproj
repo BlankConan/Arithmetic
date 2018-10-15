@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A2700C721704A81003CD084 /* TwoSumProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2700C621704A81003CD084 /* TwoSumProblem.swift */; };
+		0A2700C92173528A003CD084 /* AddTwoNums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2700C82173528A003CD084 /* AddTwoNums.swift */; };
 		0A45E6872100D9E40061BA14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45E6862100D9E40061BA14 /* main.swift */; };
 		0A45E68F2100DA680061BA14 /* DataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45E68E2100DA680061BA14 /* DataStruct.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		0A2700C621704A81003CD084 /* TwoSumProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumProblem.swift; sourceTree = "<group>"; };
+		0A2700C82173528A003CD084 /* AddTwoNums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNums.swift; sourceTree = "<group>"; };
 		0A45E6832100D9E40061BA14 /* Arithmetic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arithmetic; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A45E6862100D9E40061BA14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0A45E68E2100DA680061BA14 /* DataStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStruct.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				0A2700C621704A81003CD084 /* TwoSumProblem.swift */,
+				0A2700C82173528A003CD084 /* AddTwoNums.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A45E68F2100DA680061BA14 /* DataStruct.swift in Sources */,
+				0A2700C92173528A003CD084 /* AddTwoNums.swift in Sources */,
 				0A45E6872100D9E40061BA14 /* main.swift in Sources */,
 				0A2700C721704A81003CD084 /* TwoSumProblem.swift in Sources */,
 			);
