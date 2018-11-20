@@ -17,7 +17,7 @@ import Cocoa
  算法步骤：升序
  1. 找到最小的元素，放入第一位
  2. 从第二位开始，找到后面最小的元素，和其交换
- 3. 重复1、2步骤
+ 3. 依次执行
  
  */
 class SelectionSort: NSObject {
@@ -31,7 +31,9 @@ class SelectionSort: NSObject {
                     index = num
                 }
             }
-            operationArr.swapAt(loopTime, index)
+            if min != operationArr[loopTime] {
+                operationArr.swapAt(loopTime, index)
+            }
         }
         return operationArr
     }

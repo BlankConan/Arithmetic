@@ -12,6 +12,7 @@
 		0A36F14921A3D0F200BBA9F1 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36F14821A3D0F200BBA9F1 /* BubbleSort.swift */; };
 		0A36F14C21A3D14100BBA9F1 /* SortProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36F14B21A3D14100BBA9F1 /* SortProtocol.swift */; };
 		0A36F14E21A3D67600BBA9F1 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36F14D21A3D67600BBA9F1 /* SelectionSort.swift */; };
+		0A36F15021A3E98C00BBA9F1 /* InsertSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A36F14F21A3E98C00BBA9F1 /* InsertSort.swift */; };
 		0A45E6872100D9E40061BA14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45E6862100D9E40061BA14 /* main.swift */; };
 		0A45E68F2100DA680061BA14 /* DataStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45E68E2100DA680061BA14 /* DataStruct.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		0A36F14821A3D0F200BBA9F1 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		0A36F14B21A3D14100BBA9F1 /* SortProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortProtocol.swift; sourceTree = "<group>"; };
 		0A36F14D21A3D67600BBA9F1 /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
+		0A36F14F21A3E98C00BBA9F1 /* InsertSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSort.swift; sourceTree = "<group>"; };
 		0A45E6832100D9E40061BA14 /* Arithmetic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Arithmetic; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A45E6862100D9E40061BA14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0A45E68E2100DA680061BA14 /* DataStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStruct.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				0A36F14B21A3D14100BBA9F1 /* SortProtocol.swift */,
 				0A36F14821A3D0F200BBA9F1 /* BubbleSort.swift */,
 				0A36F14D21A3D67600BBA9F1 /* SelectionSort.swift */,
+				0A36F14F21A3E98C00BBA9F1 /* InsertSort.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A36F15021A3E98C00BBA9F1 /* InsertSort.swift in Sources */,
 				0A45E68F2100DA680061BA14 /* DataStruct.swift in Sources */,
 				0A36F14C21A3D14100BBA9F1 /* SortProtocol.swift in Sources */,
 				0A36F14E21A3D67600BBA9F1 /* SelectionSort.swift in Sources */,
