@@ -24,7 +24,8 @@ class BubbleSort: NSObject {
 
    static func bubbleSort(nums: [Int]) -> [Int] {
         var sortedArr = nums
-        for loopTime in 1...sortedArr.count {
+        for loopTime in 1...sortedArr.count-1  {
+            // 如果没有交换过，说明都已排序完成
             var flag = true
             for index in 0...sortedArr.count - loopTime - 1 {
                 if sortedArr[index] > sortedArr[index + 1] {

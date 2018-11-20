@@ -9,10 +9,31 @@
 import Cocoa
 
 
-// 选择排序 
+/**
+ 算法名称：选择排序
+ 时间复杂度：
+ 空间复杂度：
+ 稳定性：稳定
+ 算法步骤：升序
+ 1. 找到最小的元素，放入第一位
+ 2. 从第二位开始，找到后面最小的元素，和其交换
+ 3. 重复1、2步骤
+ 
+ */
 class SelectionSort: NSObject {
     static func selectionSort(nums: [Int]) -> [Int] {
-        return [1]
+        var operationArr = nums
+        for loopTime in 0..<nums.count-1 {
+            var min = operationArr[loopTime], index = loopTime
+            for num in loopTime+1..<operationArr.count {
+                if operationArr[num] < min {
+                    min = operationArr[num]
+                    index = num
+                }
+            }
+            operationArr.swapAt(loopTime, index)
+        }
+        return operationArr
     }
 }
 
