@@ -9,12 +9,7 @@
 import Foundation
 
 
-let nums = [10,30,6,5,9,1,100]
-print(BubbleSort.startSort(nums: nums))
-
-print(InsertSort.startSort(nums: nums))
-
-
+print("%ld", NumReverse.reverse(-123))
 
 
 
