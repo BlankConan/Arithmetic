@@ -8,9 +8,5 @@
 
 import Foundation
 
+ToLowerCase.strSearch()
 
-print("%ld", NumReverse.reverse(-123))
-
-
-
-//RunLoop.current.run()
