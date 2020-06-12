@@ -8,5 +8,7 @@
 
 import Foundation
 
-ToLowerCase.strSearch()
+let root = BTree.creatTree()
+//BTree.bfsTraversal(root: root)
+BTree.recursionPreorderTraversal(root: root)
 
