@@ -12,3 +12,5 @@ let root = BTree.creatTree()
 //BTree.bfsTraversal(root: root)
 BTree.recursionPreorderTraversal(root: root)
 
+let nums = [7,9,1,5,6,4].insertSort()
+print(nums)
