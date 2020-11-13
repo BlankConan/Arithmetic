@@ -60,7 +60,7 @@ extension Array where Element == Int {
     3.是否原地排序
     4.是否稳定排序
     */
-    func insertSort() -> Self {
+    func insert_sort() -> Self {
         var a = self
         for var i in 1..<a.count {
             let temp = a[i]
@@ -82,7 +82,7 @@ extension Array where Element == Int {
     3.是否原地排序
     4.是否稳定排序
     */
-    func selectionSort() -> Self {
+    func selection_sort() -> Self {
         var a = self
         for i in 0..<a.count {
             var minIndex = i, minValue = a[i], index = i+1
@@ -100,6 +100,42 @@ extension Array where Element == Int {
     }
     
     
+    /**
+       归并排序:分治思想
+        merge_sort(p,r) = merge(merge_sort(p,q), merge_sort(1+1,r))
+       1.时间复杂度
+       2.空间复杂度
+       3.是否原地排序
+       4.是否稳定排序
+    */
+    func merge_sort() {
+        merge_sort_c(A: self, start: 0, end: self.count-1)
+    }
+    
+    // 归并排序的递归调用
+    func merge_sort_c(A:[Element], start:Int, end:Int) {
+        
+        // 递归终止条件
+        if start > end { return }
+        
+        // 取p到r之间的中间位置q
+        let q = (start + end) / 2
+        
+        // 分治递归
+        merge_sort_c(A: A, start: start, end: q)
+        merge_sort_c(A: A, start: q+1, end: end)
+        
+        //
+        merge(sequnce: A, start:start, mid:q)
+    }
+    
+    // 归并排序合并函数
+    private func merge(sequnce:[Element], start: Int , mid: Int) {
+        
+        
+        let temp = Array(repeating: 0, count: sequnce.count)
+        
+    }
     
 }
 

@@ -16,6 +16,7 @@
 		0A45E68F2100DA680061BA14 /* PublicDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A45E68E2100DA680061BA14 /* PublicDefine.swift */; };
 		0A51943D24931B9700EF57DE /* BTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A51943C24931B9700EF57DE /* BTree.swift */; };
 		0A95300E21A6751F0010BBA9 /* SignalNum2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A95300D21A6751F0010BBA9 /* SignalNum2.swift */; };
+		27813077254ABAA30020AD47 /* ClimeStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27813076254ABAA30020AD47 /* ClimeStairs.swift */; };
 		363291FF22EEB51C00002BE0 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363291FE22EEB51C00002BE0 /* ListNode.swift */; };
 		3632920122EEB6E800002BE0 /* MiddleNodeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3632920022EEB6E800002BE0 /* MiddleNodeList.swift */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,7 @@
 		0A45E68E2100DA680061BA14 /* PublicDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicDefine.swift; sourceTree = "<group>"; };
 		0A51943C24931B9700EF57DE /* BTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTree.swift; sourceTree = "<group>"; };
 		0A95300D21A6751F0010BBA9 /* SignalNum2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalNum2.swift; sourceTree = "<group>"; };
+		27813076254ABAA30020AD47 /* ClimeStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimeStairs.swift; sourceTree = "<group>"; };
 		363291FE22EEB51C00002BE0 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		3632920022EEB6E800002BE0 /* MiddleNodeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleNodeList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +123,7 @@
 		0A45E6902100DAC70061BA14 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2720CB60254AB31D009DD5F5 /* Others */,
 				0A51943B24931B4F00EF57DE /* Tree */,
 				363291FD22EEB08D00002BE0 /* LinkedList */,
 				0A36F16121A5880F00BBA9F1 /* String */,
@@ -136,6 +139,14 @@
 				0A51943C24931B9700EF57DE /* BTree.swift */,
 			);
 			path = Tree;
+			sourceTree = "<group>";
+		};
+		2720CB60254AB31D009DD5F5 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				27813076254ABAA30020AD47 /* ClimeStairs.swift */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 		363291FD22EEB08D00002BE0 /* LinkedList */ = {
@@ -213,6 +224,7 @@
 				0A95300E21A6751F0010BBA9 /* SignalNum2.swift in Sources */,
 				0A45E6872100D9E40061BA14 /* main.swift in Sources */,
 				3632920122EEB6E800002BE0 /* MiddleNodeList.swift in Sources */,
+				27813077254ABAA30020AD47 /* ClimeStairs.swift in Sources */,
 				0A36F16321A6450A00BBA9F1 /* ToLowerCase.swift in Sources */,
 				0A2700C721704A81003CD084 /* TwoSumProblem.swift in Sources */,
 				363291FF22EEB51C00002BE0 /* ListNode.swift in Sources */,

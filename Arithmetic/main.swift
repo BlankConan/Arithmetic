@@ -8,9 +8,12 @@
 
 import Foundation
 
-let root = BTree.creatTree()
-//BTree.bfsTraversal(root: root)
-BTree.recursionPreorderTraversal(root: root)
 
-let nums = [7,9,1,5,6,4].insertSort()
-print(nums)
+
+
+
+print(climeStairs(n: 3))
+ 
+print(climeStairs(n: 4))
+print(climeStairs(n: 5))
+print(climeStairs(n: 6))
